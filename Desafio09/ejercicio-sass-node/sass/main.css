@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e9ecf4;
+  color: #fff;
+  font-family: "Arimo", sans-serif;
+}
+
+.contenedor {
+  max-width: 1440px;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, auto);
+  gap: 20px;
+  grid-template-areas: "header header header header " "nav nav nav nav" "contenido contenido contenido sidebar" "contenido contenido contenido sidebar" "espacio1 espacio2 espacio2 sidebar" "footer footer footer footer ";
+}
+
+.contenido {
+  background-color: rgb(163, 13, 143);
+  padding: 20px;
+  border-radius: 10px;
+  grid-area: contenido;
+}
+
+.sidebar {
+  background-color: #faa43d;
+  padding: 20px;
+  border-radius: 10px;
+  grid-area: sidebar;
+}
+
+.espacio1 {
+  background-color: #55a8fd;
+  padding: 20px;
+  border-radius: 10px;
+  grid-area: espacio1;
+}
+
+.espacio2 {
+  background-color: #0b4885;
+  padding: 20px;
+  border-radius: 10px;
+  grid-area: espacio2;
+}
+
+.navbar {
+  grid-area: nav;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #12203E;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+.navbar ul li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  transition: all 0.5s;
+}
+.navbar ul li a:hover {
+  background-color: white;
+  color: #12203E;
+  border-radius: 10px;
+}
+
+.header {
+  background-color: #12203e;
+  padding: 20px;
+  border-radius: 10px;
+  grid-area: header;
+}
+
+.titulo1 {
+  font-size: 2.5rem;
+}
+
+.titulo2 {
+  font-size: 2rem;
+}
+
+.footer {
+  background-color: rgb(182, 45, 45);
+  padding: 20px;
+  border-radius: 10px;
+  grid-area: footer;
+}
+
+.titulo1 {
+  font-size: 1.5rem;
+}
+.titulo2 {
+  font-size: 1rem;
+}
+.contenedor {
+  width: 95%;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, auto);
+  gap: 10px;
+  grid-template-areas: "header header header header" "nav nav nav nav" "contenido contenido contenido contenido" "sidebar sidebar sidebar sidebar" "espacio1 espacio1 espacio1 espacio1" "espacio2 espacio2 espacio2 espacio2" "footer footer footer footer";
+}/*# sourceMappingURL=main.css.map */

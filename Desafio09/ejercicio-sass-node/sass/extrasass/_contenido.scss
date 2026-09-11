@@ -1,0 +1,27 @@
+.contenido {
+  background-color: rgb(163, 13, 143);
+  padding: 20px;
+  border-radius: 10px;
+  grid-area: contenido;
+}
+
+.sidebar {
+  background-color: #faa43d;
+  padding: 20px;
+  border-radius: 10px;
+  grid-area: sidebar;
+}
+
+.espacio1 {
+  background-color: #55a8fd;
+  padding: 20px;
+  border-radius: 10px;
+  grid-area: espacio1;
+}
+
+.espacio2 {
+  background-color: #0b4885;
+  padding: 20px;
+  border-radius: 10px;
+  grid-area: espacio2;
+}

@@ -1,0 +1,28 @@
+.navbar {
+    grid-area: nav;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #12203E;
+
+    ul {
+        display: flex;
+        list-style: none;
+
+        li {
+            a {
+                color: white;
+                display: block;
+                text-decoration: none;
+                padding: .5em 1em;
+                transition: all 0.5s;
+
+                &:hover {
+                    background-color: white;
+                    color: #12203E;
+                    border-radius: 10px;
+
+                }
+            }
+        }
+    }
+}

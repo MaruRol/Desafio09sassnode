@@ -1,0 +1,12 @@
+@use "variables" as v;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+   background-color: v.$color_fondo;
+  color: v.$color_letra;
+  font-family: v.$tipo_letraa;
+}
